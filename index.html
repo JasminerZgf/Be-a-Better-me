@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--░░░░░░░░▌▒█░░░░░░░░░░░▄▀▒▌-->
+    <!--░░░░░░░░▌▒▒█░░░░░░░░▄▀▒▒▒▐-->
+    <!--░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐-->
+    <!--░░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐-->
+    <!--░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌-->
+    <!--░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒-->
+    <!--░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐-->
+    <!--░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄-->
+    <!--░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒-->
+    <!--▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒-->
+    <!--单身狗就这样默默地看着你，一句话也不说。-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>杭州蓝熙健康管理有限公司</title>
+	<meta name="keyword" content="杭州蓝熙健康管理有限公司，健康小屋，健康小屋系统，健康管理系统，健康管理软件，健康管理平台，健康管理云平台，慢病管理方案，健康档案管理系统">
+	<meta name="description" content="蓝熙健康管理系统平台以智能健康设备及健康小屋检测数据为切入点，将健康档案、健康评估、健康干预、日常检测数据、运动饮食方案、客户回访等健康管理各个环节流程紧密结合，为健康管理机构提供健康管理设备、健康管理软件、健康管理服务三位一体的整体解决方案。">
+    <style type="text/css">
+        /*css 默认样式清除*/
+        body {
+            margin: 0;
+            font: 12px "MicrosoftYaHei";
+        }
+        p,
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        ul,
+        ol {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        input {
+            border: none;
+            padding: 0;
+            outline: none;
+
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        img {
+            vertical-align: top;
+            border: none;
+
+        }
+        .clearfix {
+            zoom: 1;
+        }
+        .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;    
+        }
+        /*主要样式开始*/
+        header {
+            width: 100%;
+            height: 90px;
+        }
+        .header_box {
+            width: 1000px;
+            margin: 0 auto;
+            height: 90px;
+        }
+        .logo {
+            float: left;
+            padding-top: 15px;
+        }
+        header ul {
+            float: right;
+            height: 90px;
+        }
+        #nav {
+            /*width: 60%;*/
+        }
+        header ul li{
+            float: left;
+           /* width: 20%;
+            text-align: center;*/
+            padding: 0 24px;
+            line-height: 90px;
+            font-size: 16px;
+        }
+        header ul li a {
+            font-family: MicrosoftYaHei;
+            color: #5A5B5C;
+        }
+        header ul li a:hover {
+            color: #0091D7;
+            padding-bottom: 28px;
+            border-bottom: 4px solid #0091D7;
+            transition: .2s;
+        }
+        .active {
+            color: #0091D7;
+            padding-bottom: 28px;
+            border-bottom: 4px solid #0091D7;
+
+        }
+        .banner {
+            width: 100%;
+            height: 400px;
+            background: url(images/index-banner.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .banner_box {
+            width: 920px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .banner_title {
+            font-family: MicrosoftYaHei;
+            font-size: 50px;
+            color: #5A5B5C;
+            padding-top: 72px;
+        }
+        .banner_tips {
+            padding-top: 16px;
+            font-family: Helvetica-Light;
+            font-size: 14px;
+            color: #5A5B5C;            
+        }
+        .banner_box p {
+            font-size: 14px;
+            color: #7D7E80;
+            height: 26px;
+        }
+        .banner_count {
+            position: absolute;
+            width: 800px;
+            height: 80px;
+            left: 50%;
+            bottom: -108px;
+           
+            margin-left: -400px;
+        }
+        .banner_count div {
+            float: left;
+            width: 50%;
+            height: 80px;
+           
+        }
+        .banner_count span {
+            float: left;
+        }
+        .banner_count .banner_count_number{
+            font-family: MicrosoftYaHei;
+            padding-top: 10px;
+            font-size: 48px;
+            color: #fff;
+            padding-left: 80px;
+        }
+        .banner_count .banner_count_w{
+            font-size: 20px;
+            color: #fff;
+            padding-top: 40px;
+        }
+        .banner_count .banner_count_text {
+            font-size: 20px;
+            color: #fff;
+            padding-left: 64px;
+            padding-top: 30px;
+        }
+        .banner2 {
+            width: 100%;
+        }
+        .banner2_box {
+            width: 920px;
+            margin: 0 auto;
+            padding: 60px 0 100px;
+        }
+        .fl {
+            float: left;
+        }
+        .banner_box_div {
+            line-height: 1;
+            font-size: 48px;
+            padding-top: 40px;
+        }
+        .banner_box_div span {
+            font-size: 24px;
+            display: inline-block;
+            position: relative;
+            top: -24px;
+        }
+        .banner2 img {
+            width: 90px;
+            height: 90px;
+            display: block;
+            margin: 0 auto;
+        }
+    
+        .banner2 ul div {
+            text-align: center;
+        }
+        .banner2 ul li {
+            width: 180px;
+            margin-right: 66px;
+            background: #7ABBF4;
+            border-radius: 8px; 
+            height: 194px;
+            color: #fff;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        .banner_box_text {
+            font-size: 16px;
+        }
+        .banner2 ul li:last-child {
+          
+            margin-right: 0px;
+            
+        }
+        .banner2_line {
+            display: inline-block;
+            width: 24px;
+            height: 2px;
+            opacity: 0.5;
+            background: #fff;
+            margin: 22px auto;
+
+        }
+        .banner2 ul .banner2_text{
+             font-size: 18px;
+            color: #4E4E4E;
+            padding-top: 10px;
+            padding-bottom: 8px;
+        }
+        .banner2 ul .banner2_num {
+            font-size: 24px;
+            color: #0091D7;
+        }
+        .service_system {
+            text-align: center;
+            width: 100%;
+            background: #EFF8FD;
+            height: 1110px;
+        }
+        .service_system_img {
+            width: 920px;
+            height: 759px;
+            margin: 0 auto;
+            margin-bottom: 100px;
+            background: url(images/home_img_lc.png) no-repeat;
+            background-size: 100% 100%;
+        }
+        .service_system_title,
+        .advantage_title {
+            
+            padding-top: 100px;
+            font-size: 30px;
+            color: #0091D7;
+        }
+        .service_system_box p {
+            padding-top: 4px;
+            font-size: 12px;
+            color: #0091D7;
+        } 
+        .service_system_text {
+            font-size: 14px;
+            color: #4E4E4E;
+            padding: 36px 0;
+        }
+        .advantage_box {
+            width: 920px;
+            height: 1180px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .advantage_box .advantage_subtitle {
+            padding-top: 4px;
+            font-size: 12px;
+            color: #0091D7;
+        }
+        .advantage_box li {
+            float: left;
+            width: 280px;
+            height: 448px;
+        }
+        .advantage_box .li_spe {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .advantage_box ul {
+            padding-top: 60px;
+
+        }
+        .img_title {
+            font-size: 18px;
+            color: #4E4E4E;
+            padding-top: 20px;
+            text-align: left;
+        }
+        .img_text {
+            font-size: 14px;
+            color: #B3B3B3;
+            line-height: 20px;
+            text-align: left;
+            padding-top: 10px;
+        }
+        .company_profile{
+            width: 100%;
+            height: 400px;
+            background: url(images/company_bg.png) no-repeat;
+            background-size: 100% 100%;
+        } 
+        .company_profile_box {
+            width: 920px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .company_title {
+            font-size: 30px;
+            color: #FFFFFF;
+            padding-top: 114px;
+        }
+        .company_subtitle {
+            font-size: 12px;
+            color: #FFFFFF;
+            padding-top: 2px;
+        }
+        .company_profile_box p{
+            font-size: 14px;
+            color: #FFFFFF;
+            height: 28px;
+        }
+
+        footer {
+            width: 100%;
+            height: 400px;
+            background: #222;
+        }
+        
+        .footer_box {
+            width: 920px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #FFFFFF;
+            padding-top: 36px;
+        }
+        .address,
+        .product,
+        .solution,
+        .callus {
+            width: 33%;
+        }
+        .line {
+            width: 40px;
+            height: 2px;
+            background: #0091D7;
+            margin-top: 20px;
+        }
+        .my_address {
+            padding-top: 30px;
+            font-size: 14px;
+            color: #858585;
+            padding-bottom: 18px;
+            padding-right: 36px;
+        }
+        .address p {
+            font-size: 14px;
+            color: #858585;
+            padding-bottom: 14px;
+
+        }
+        .square {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            vertical-align: top;
+            background: #0091D7;
+            margin-top: 5px;
+            margin-right: 10px;
+        }
+        .span_text {
+            display: inline-block;
+            font-size: 14px;
+            color: #858585;
+            vertical-align: top;
+        }
+        .product li,
+        .solution li{
+            height: 34px;
+        }
+        .product ul,
+        .solution ul {
+            padding-top: 28px;
+        }
+        .myemail {
+            background: #222;
+            border: 1px solid #3d3d3d;
+            margin-top: 28px;
+            padding: 6px;
+            color: #858585;
+        }
+        .mytext {
+            background: #222;
+            border: 1px solid #3d3d3d;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            height: 110px;
+            padding: 6px;
+            resize: none;
+            outline: none;
+            width: 169px;
+            color: #858585;
+        }
+        .submitbtn {
+            background: #222;
+            color: #858585;
+            border: 1px solid #3d3d3d;
+            font-size: 14px;
+            width: 29px;
+            padding:8px 12px;
+        }
+        .copy {
+            width: 100%;
+            border-top: 1px solid #3d3d3d;
+            color: #858585;
+            text-align: center;
+            font-size: 14px;
+            background: #222;
+            padding: 20px 0;
+        }
+        .scan-wechat {
+            position: fixed;
+            right: 20px;
+            bottom: 300px;
+        }
+       video {
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+
+       } 
+        
+
+       
+
+        
+
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="header_box clearfix">
+            <div class="logo">
+                <img src="images/logo.png" height="50" width="236" alt="" />
+            </div>
+            
+            <ul id="nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="service.html">健康管理系统</a></li>
+                <li><a href="solution.html">健康小屋系统</a></li>
+                <li><a href="case.html">机构健康管理</a></li>
+                <li><a href="cooperation.html">商务合作</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="banner">
+        <div class="banner_box">
+            <div class="banner_title">
+                健康管理云平台
+            </div>
+            <div class="banner_tips">Health Management Cloud</div>
+            <p style="padding-top: 54px;">基于智能硬件和物联网技术构建的健康管理云平台</p>
+            <p>为用户提供多种健康管理配套服务</p>
+            <p>企业、社区或健康管理机构（公众号、APP端）通过植入问安健康管理云平台</p>
+            <p>可实时获取用户硬件检测数据并提供个性化的健康管理服务</p>
+
+        </div>
+
+    </div>
+    <div class="banner2">
+        <div class="banner2_box clearfix">
+            <ul class="clearfix">
+                <li class="fl">
+                    <div class="banner_box_div">
+                        13万<span>+</span>
+                    </div>
+                    <span class="banner2_line"></span>
+                    <div class="banner_box_text">服务客户人次</div>
+                </li>
+                <li class="fl">
+                    <div class="banner_box_div">
+                        230<span>+</span>
+                    </div>
+                    <span class="banner2_line"></span>
+                    <div class="banner_box_text">遍布全国城市</div>
+                </li>
+                <li class="fl">
+                    <div class="banner_box_div">
+                        100万<span>+</span>
+                    </div>
+                    <span class="banner2_line"></span>
+                    <div class="banner_box_text">累计检测人次</div>
+                </li>
+                <li class="fl">
+                    <div class="banner_box_div">
+                        100万<span>+</span>
+                    </div>
+                    <span class="banner2_line"></span>
+                    <div class="banner_box_text">平台用户数</div>
+                </li>
+                
+            </ul>
+            <video src="https://greentown.lanxihealthcare.com/GreenTown/lanxifile/companyVideo.mp4" controls="controls" width="680" height="382">
+                您的浏览器版本太低，请升级。
+            </video>
+
+        </div>
+
+    </div>
+
+    <div class="service_system">
+        
+        <div class="service_system_box">
+            <div class="service_system_title">服务体系</div>
+            <p>Service System</p>
+            <div class="service_system_text">企业、社区或健康管理机构（公众号、APP端）通过植入问安健康管理云平台可实时获取用户硬件检测数据并提供个性化的健康管理服务</div>
+            <div class="service_system_img">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="advantage" style="position:relative">
+
+        <div class="advantage_box">
+            <div class="advantage_title">我们的优势</div>
+            <p class="advantage_subtitle">Our Advantage</p>
+            <ul>
+                <li>
+                    <img src="images/adimg1.png" alt="" />
+                    <div class="img_title">领先的物联网智能硬件</div>
+                    <p class="img_text">依托GPRS物联网技术，蓝熙问安智能血压/血糖仪可实现检测数据实时上传云端无需wifi，自动上传</p>
+                </li>
+                <li class="li_spe">
+                    <img src="images/adimg2.png" alt="" />
+                    <div class="img_title">创新的健康管理云平台</div>
+                    <p class="img_text">通过云平台，用户可实时获取检测数据及历史信息，同时方便商家、健康管理机构，针对用户不同情况定制专属的健康管理服务</p>
+                </li>
+                <li>
+                    <img src="images/adimg3.png" alt="" />
+                    <div class="img_title">人性化的健康管家服务</div>
+                    <p class="img_text">蓝熙健康管理师与医生团队依托云平台可实时获取每一位用户的健康数据与对比，通过APP、微信、短信、电话为用户提供个性化的健康管理服务</p>
+                </li>
+                <li>
+                    <img src="images/adimg4.png" alt="" />
+                    <div class="img_title">智能的健康小屋系统</div>
+                    <p class="img_text">领先的智能健康检测驿站，以健康检测、电子健康档案、报告解读、远程医疗、慢病管理等
+                    为核心服务，为用户、社区提供全面的健康管理服务</p>
+                </li>
+                <li class="li_spe">
+                    <img src="images/adimg5.png" alt="" />
+                    <div class="img_title">专业的远程医疗平台</div>
+                    <p class="img_text">蓝熙优质医疗资源库对接全国名医资源，远程医疗会诊中心为用户提供专业的线上医疗咨询、线下提供贴心的就医绿色通道服务</p>
+                </li>
+                <li>
+                    <img src="images/adimg6.png" alt="" />
+                    <div class="img_title">成熟的园区管理</div>
+                    <p class="img_text">蓝熙云医院平台依托蓝熙股东--东软熙康的优质医疗资源，为业主与“一号难求”的大专家搭建桥梁，让业主以更短的时间、更少的花费、获得更好的医疗服务</p>
+                </li>
+
+            </ul>
+        </div>
+        
+
+    </div>
+
+    <div class="company_profile">
+        <div class="company_profile_box">
+            <div class="company_title">公司简介</div>
+            <div class="company_subtitle">Company Profile</div>
+            <p style="padding-top: 40px;">杭州蓝熙健康管理集团有限公司(简称"蓝熙健康")——国内领先的健康管理服务运营商。</p>
+   <p>本站为蓝熙健康官方网站，为用户提供智能健康硬件+软件的技术服务支撑，为有健康管理系统需求的用户提供健康管理云服务平台。</P>         <p>蓝熙健康秉承着“以科技和服务护佑健康人生”的企业愿景，致力于通过“平台+硬件+服务”的全闭环生态模式</p>
+            <p>为用户、家庭、企业、机构提供一站式健康管理解决方案。</p>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer_box">
+            <div class="address fl">
+                <div class="footer_title">联系信息</div>
+                <div class="line"></div>
+                <div class="my_address">地址：中国浙江省杭州市西湖       区文一西路558号西溪诚园写字楼2号楼705室</div>
+                <p>官网：http://www.lanxiwenan.com</p>
+                <p>邮箱：zhangyh@lanxihealthcare.com</p>
+     <p>固定电话:+86-571-86802351</p>
+           <p>产品咨询：<span id="productPhone">13867486474 </span></p>
+			    <p>技术咨询：13819197117 </P>
+ 
+            </div>
+            <div class="product fl" style="display:none;">
+                <div class="footer_title">产品服务</div>
+                <div class="line"></div>
+                <ul>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">体检管理</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">运动管理</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">医生在线</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">慢病管理</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康商城</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康资讯</span>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="solution fl" style="display:none;">
+                <div class="footer_title">解决方案</div>
+                <div class="line"></div>
+                <ul>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康管理系统</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康小屋系统</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">机构健康管理</span>
+                    </li>
+                    <!-- <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康小屋</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">远程医疗</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">健康管理系统</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">体检</span>
+                    </li>
+                    <li>
+                        <span class="square"></span>
+                        <span class="span_text">运动</span>
+                    </li> -->
+                   
+                   
+                </ul>
+            </div>
+            <div class="callus fl" style="display:none;">
+                <div class="footer_title">联系我们</div>
+                <div class="line"></div>
+                <input class="myemail" type="eamil" placeholder="Email"/>
+                <textarea class="mytext" placeholder="Message"></textarea> 
+                <div class="submitbtn">提交</div>
+            </div>
+            
+        </div>
+    </footer>
+    <div class="scan-wechat">
+            <img src="images/home_wechat.png" alt="" />
+
+        </div>
+    <div class="copy">
+        ©2017  杭州蓝熙健康管理集团有限公司  |  版权所有  |  浙ICP备17032224号
+  | <script src="https://s22.cnzz.com/z_stat.php?id=1265729218&web_id=1265729218" language="JavaScript"></script>  </div>
+    <script type="text/javascript">
+    window.onload = function (){
+        var nav = document.getElementById('nav');
+        var alla = nav.getElementsByTagName('a');
+        alla[0].style.color = '#0091D7';
+        alla[0].className = 'active';
+        var today = new Date().getDate();
+        //console.log(today);
+        if(today < 15){
+           //document.getElementById('productPhone').innerHTML = '13867486474'; 
+           document.getElementById('productPhone').innerHTML = '18968182727';     
+        }else {
+           document.getElementById('productPhone').innerHTML = '18968182727';
+        }
+        
+    }
+
+    </script>
+    
+</body>
+</html>
